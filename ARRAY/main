@@ -1,0 +1,38 @@
+class ArrayExample{
+    void demoArrays(){
+        int[] ages = new int[3]; //age[0],aes[1],ages[2]
+        float[] weights = new float[3]; //weights[0],weights[1],weights[2
+        String[] names = new String[30];
+
+        ages[0] = 34;
+        ages[1] = 15;
+        ages[2] = 45;
+
+        weights[0] = 23.5f;
+        weights[1] = 52.3f;
+        weights[2 ] = 81.3f;
+
+        names[0] = MAHAKAL;
+        names[1] = BHOLENATH;
+        names[2] =  SAMBHU;
+
+        System.out.println(ages[0]);
+        System.out.println(ages[1]);
+        System.out.println(ages[2]);
+
+        System.out.println(weight[0]);
+        System.out.println(weight[1]);
+        System.out.println(weight[3]);
+
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        ArraysExample obj = new ArraysExample();
+        obj.demoArrays();
+    }
+
+}
